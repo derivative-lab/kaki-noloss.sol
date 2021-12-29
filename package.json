@@ -1,0 +1,44 @@
+{
+  "name": "kaki-no-loss-option",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derivative-lab/kaki-No-loss-Option.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derivative-lab/kaki-No-loss-Option/issues"
+  },
+  "homepage": "https://github.com/derivative-lab/kaki-No-loss-Option#readme",
+  "dependencies": {
+    "@chainlink/contracts": "^0.1.6",
+    "@openzeppelin/contracts": "^3.4.1",
+    "@openzeppelin/contracts-upgradeable": "^3.4.1",
+    "@openzeppelin/test-helpers": "^0.5.13",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "arb-ethers-web3-bridge": "^0.7.3",
+    "chai": "^4.3.4",
+    "hardhat": "^2.6.4",
+    "hardhat-abi-exporter": "^2.2.1",
+    "hardhat-gas-reporter": "^1.0.4",
+    "web3": "^1.3.6"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/hardhat-upgrades": "^1.9.0",
+    "@types/mocha": "^8.2.2",
+    "ethereum-waffle": "^3.2.0",
+    "ethers": "^5.4.5",
+    "hardhat": "^2.6.4",
+    "solidity-coverage": "^0.7.14",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
